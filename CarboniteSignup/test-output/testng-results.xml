@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SignupCarbonite" duration-ms="36042" started-at="2020-07-13T08:48:36Z" finished-at="2020-07-13T08:49:12Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="36042" started-at="2020-07-13T08:48:36Z" finished-at="2020-07-13T08:49:12Z">
+      <class name="signup.testcase.validation.Signup_Smoketest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:signup.testcase.validation.Signup_Smoketest@68e965f5]" name="setup" is-config="true" duration-ms="7454" started-at="2020-07-13T04:48:36Z" finished-at="2020-07-13T04:48:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC01_Signup_WithvalidData()[pri:0, instance:signup.testcase.validation.Signup_Smoketest@68e965f5]" name="TC01_Signup_WithvalidData" duration-ms="28475" started-at="2020-07-13T04:48:43Z" finished-at="2020-07-13T04:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Signup_WithvalidData -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:signup.testcase.validation.Signup_Smoketest@68e965f5]" name="teardownMethod" is-config="true" duration-ms="100" started-at="2020-07-13T04:49:12Z" finished-at="2020-07-13T04:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_Signup_WithvalidData status=SUCCESS method=Signup_Smoketest.TC01_Signup_WithvalidData()[pri:0, instance:signup.testcase.validation.Signup_Smoketest@68e965f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+      </class> <!-- signup.testcase.validation.Signup_Smoketest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- SignupCarbonite -->
+</testng-results>

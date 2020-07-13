@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SignupCarbonite]" parallel="none">
+  <parameter name="browser" value="Chrome"/>
+  <test name="ChromeTest(failed)" parallel="none">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="signup.testcase.validation.Signup_Smoketest">
+        <methods>
+          <include name="setup"/>
+          <include name="TC01_Signup_WithvalidData"/>
+          <include name="teardownMethod"/>
+        </methods>
+      </class> <!-- signup.testcase.validation.Signup_Smoketest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [SignupCarbonite] -->
